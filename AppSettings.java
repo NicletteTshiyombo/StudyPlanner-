@@ -11,7 +11,7 @@ public final class AppSettings {
     public static synchronized AppSettings getInstance() {
         if (instance == null) instance = new AppSettings();
         return instance;
-    }
+    } // review the synchronized.
 
     public int getDefaultStudyMinutes() {
         return defaultStudyMinutes;
@@ -30,3 +30,9 @@ public final class AppSettings {
         this.notificationsEnabled = enabled;
     }
 }
+//ldata entry
+//assignment3 data entry
+//input needed "please you ne task", " view archived", 
+// add paused state
+// simple visual using javaFX (GUI)
+//Asignment 3 add read me file
