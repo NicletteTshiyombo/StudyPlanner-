@@ -138,6 +138,7 @@ ID,Title,State
 The graphical user interface was first planned conceptually and then implemented using JavaFX with SceneBuilder through the studyplanner.fxml file.
 
 The MainController.java class handles user interactions and connects the GUI to the application logic.
+
 ---
 ### Data Persistence
 
@@ -152,10 +153,10 @@ Tasks are saved when the user clicks Save or exits
 Ensures data persistence between sessions
 ---
 ## Important Notes
-Task IDs must be unique
-Duplicate task IDs are not allowed
-Invalid state transitions will display an error message
-If tasks.txt does not exist, it will be created automatically
+Task IDs must be unique.
+Duplicate task IDs are not allowed.
+Invalid state transitions will display an error message.
+If tasks.txt does not exist, it will be created automatically.
 ---
 ## Testing
 
