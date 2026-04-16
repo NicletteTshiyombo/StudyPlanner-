@@ -151,12 +151,6 @@ Tasks are recreated as StudyTask objects
 Tasks are saved when the user clicks Save or exits
 Ensures data persistence between sessions
 ---
-## Important Notes
-Task IDs must be unique
-Duplicate task IDs are not allowed
-Invalid state transitions will display an error message
-If tasks.txt does not exist, it will be created automatically
----
 ## Testing
 
 The project includes a dedicated testing package, studyplannertest.
@@ -186,4 +180,9 @@ tshi0037@algonquinlive.com
 ### Anne Azie 
 azie0001@alognquinlive.com
 
-
+---
+## Important Notes
+Task IDs must be unique
+Duplicate task IDs are not allowed
+Invalid state transitions will display an error message
+If tasks.txt does not exist, it will be created automatically
